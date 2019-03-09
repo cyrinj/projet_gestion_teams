@@ -19,6 +19,7 @@ namespace WindowsFormsApp2
 
         private void Form5_Load(object sender, EventArgs e)
         {
+            int y = 0;
             comboBox1.DataSource = Form1.c.Teamnames();
        
         }
